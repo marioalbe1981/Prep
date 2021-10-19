@@ -8,7 +8,7 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-  
+
   // Opción 1 (ES6):
   // class Usuario {
   //   constructor(opciones) {
@@ -69,7 +69,7 @@ function agregarStringInvertida() {
   //Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio"
 
   class Persona {
-    constructor(/*Escribir los argumentos que recibe el constructor*/) {
+    constructor(nombre, apellido, edad, domicilio) {
       // Crea el constructor:
       this.nombre = nombre;
       this.apellido = apellido;
